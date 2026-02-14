@@ -13,8 +13,7 @@ This document serves as the central reference for LLM agents working on this Lin
 
 ## Core Instructions
 
-For detailed guidelines on specific topic, Review the relevant documentation files in `/docs` folder. ALWAYS important to always refer to the relevant instructions and .md file within the docs directory BEFORE generating any code`
-
+⚠️ **CRITICAL**: Before generating ANY code, you MUST read the relevant individual instruction files in the `/docs/agent-instructions/` directory. This is non-negotiable and essential for maintaining project standards and consistency.
 
 ### 1. Code Quality & Standards
 Refer to [Code Standards](./docs/agent-instructions/code-standards.md) for detailed guidelines on:
@@ -72,16 +71,18 @@ Refer to [Authentication](./docs/agent-instructions/authentication.md) for:
 
 ## Before You Start
 
-1. Read this file and understand the project structure
-2. Review the relevant documentation files in `/docs/. ALWAYS important to always refer to the relevant instructions and .md file within the docs directory BEFORE generating any code`
+⚠️ **MUST DO FIRST**: Read the relevant instruction files in `/docs/agent-instructions/` based on the task at hand.
+
+1. **MANDATORY**: Identify and read the relevant documentation file(s) from `/docs/agent-instructions/` for your specific task
+2. Read this AGENTS.md file and understand the project structure
 3. Ensure your development environment is properly configured
-4. Check existing code for patterns and conventions
+4. Check existing code in the project for patterns and conventions
 5. Run tests before making any changes
 
 ## When in Doubt
 
+- **First**: Review the relevant documentation file in `/docs/agent-instructions/`
 - Check existing code in the same directory for patterns
-- Review the relevant documentation file
 - Prioritize type safety and clarity
 - Write tests for new functionality
 - Reach out through project management tools for clarification
